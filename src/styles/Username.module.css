@@ -50,3 +50,6 @@
     background-color: #FF6A6A;
   }
   
+  input[type="file"] {
+    display: none;
+  }

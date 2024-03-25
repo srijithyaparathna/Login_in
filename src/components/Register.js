@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import avatar from '../assets/profile.png';
 import toast, { Toaster } from 'react-hot-toast';
 import { useFormik } from 'formik';
-import { registerValidation } from '../helper/validate';
+import { passwordValidate, registerValidation } from '../helper/validate';
 import convertToBase64 from '../helper/convert';
 //import { registerUser } from '../helper/helper'
 
